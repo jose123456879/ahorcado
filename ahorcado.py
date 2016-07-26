@@ -1,4 +1,6 @@
 from lista import lista_de_palabras
-from random import randrage
-palabra=random.lista_de_palabras(0,999,1)
-print(palabra)
+import random
+p= random.randrange(0,999)
+palabra=(lista_de_palabras(p))
+numero=count.palabra
+print((_)*numero)
