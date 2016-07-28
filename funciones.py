@@ -1,11 +1,14 @@
 def guiones(palabra):
+	guiones=[]
 	for letra in palabra:
 		guiones.append("_")
 	return (guiones)	
-def encuentraletras(palabra,guiones):
+def letras(palabra,guiones):
+	real=false
 	for i in range(len(palabra)):
-		if palabra[i]=letra
-		
+		if list(palabra[i])==letra:
+			real=true
+		return 	
 
 
 
