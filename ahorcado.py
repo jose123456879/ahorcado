@@ -1,5 +1,5 @@
 from lista import lista_de_palabras
-from funciones import guiones
+from funciones import guiones, letras
 import random
 print("Bienvenido a ahorcado")
 print("por favor ingresar una letra a la vez")
@@ -8,3 +8,4 @@ palabra=(lista_de_palabras(p))
 guion=guiones(palabra)
 print(guion)
 print(palabra)
+letra=input("ingrese una letra: ")

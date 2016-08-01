@@ -6,11 +6,65 @@ def guiones(palabra):
 def letras(palabra,guiones):
 	real=false
 	for i in range(len(palabra)):
-		if list(palabra[i])==letra:
+		if list(palabra[p])==letra:
 			real=true
-		return 	
+
+def ahorcado():
+	list=[
+	"""______ 
+       |     |
+       |    
+       |   
+       |  
+       |     
+	___|____
+	""",
+		"""
+		______ 
+       |     |
+       |    ( )
+       |   
+       |   
+       |   
+	___|____
+	""", 
+	"""______ 
+       |     |
+       |    ( )
+       |     |
+       |     |
+       |      
+	___|____
+
+		""",
+	"""	______ 
+       |     |
+       |    ( )
+       |   __|
+       |     |
+       |     
+	___|____
+		""",
+		"""
+		_____ 
+       |     |
+       |    ( )
+       |   __|__
+       |     |
+       |     
+	___|____
+		""",
+		"""
+		_____ 
+       |     |
+       |    ( )
+       |   __|__
+       |     |
+       |    / 
+	___|____
+
+
+	]
 
 
 
-
-  
