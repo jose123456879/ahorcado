@@ -4,11 +4,13 @@ def guiones(palabra):
 		guiones.append("_")
 	return (guiones)	
 def letras(palabra,guiones):
-	real=false
+	real= False
 	for i in range(len(palabra)):
-		if list(palabra[p])==letra:
-			real=true
-
+		if palabra[i] == letra:
+		f="A"
+		f+= (guiones[i]+"")
+		print(f)
+			
 def ahorcado():
 	list=[
 	"""______ 
@@ -61,8 +63,16 @@ def ahorcado():
        |   __|__
        |     |
        |    / 
+	___|
+""",
+	""" _____
+       |     |
+       |    ( )
+       |   __|__
+       |     |
+       |    / \ 
 	___|____
-
+"""
 
 	]
 

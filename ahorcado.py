@@ -7,5 +7,7 @@ p= random.randrange(0,999)
 palabra=(lista_de_palabras(p))
 guion=guiones(palabra)
 print(guion)
-print(palabra)
-letra=input("ingrese una letra: ")
+win=False
+while win==False:
+		letra=input("ingrese una letra: ")
+		print(guion)
